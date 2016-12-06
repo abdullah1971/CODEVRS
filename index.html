@@ -28,6 +28,7 @@
     <!-- owl.carousel.css -->
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/owl.transition.css" rel="stylesheet">
 
 
     <!-- Custom styles for this website -->
@@ -47,7 +48,7 @@
   <body>
 
     <!-- start navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top navigation-bar navbar-transparent">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -56,45 +57,151 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#landing-slider">CODEVRS</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+
+            <li><a href="#landing-slider">Home</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a id="project-hover" href="#project-list">Projects</a></li>
+            <li><a href="#customer-testimonial">Customer Satisfiction</a></li>
+
+            
+            <li><a href="#find-us">Find Us</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+            
+            
           </ul>
+          
         </div><!--/.nav-collapse -->
       </div>
     </nav>
     <!-- end navbar -->
 
+    <!-- start project list link div -->
+        <div id="project-hover-content" class="hide-nav-hover-content show-nav-hover-content">
+            
+            <ul style="list-style: none;">
+                    <!-- column  header -->
+                    <li class="dropdown-header">Nav header1</li>
+                    <li role="separator" class="divider"></li>
+                    <!-- end column header -->
+
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <!-- first line is for separating
+                         second line is for header
+                         these will be needed while constructing 
+                         multi column navigation bar
+
+
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li> -->
+
+
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li><br>
+                    
+
+                    <!-- column  header -->
+                    
+                    <li class="dropdown-header">Nav header1</li>
+                    <li role="separator" class="divider"></li>
+                    <!-- end column header -->
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li><br>
+
+
+
+                    <!-- column  header -->
+                    
+                    <li class="dropdown-header">Nav header1</li>
+                    <li role="separator" class="divider"></li>
+                    <!-- end column header -->
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li><br>
+
+
+
+                    <!-- column  header -->
+                    
+                    <li class="dropdown-header">Nav header1</li>
+                    <li role="separator" class="divider"></li>
+                    <!-- end column header -->
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li><br>
+
+
+
+                    <!-- column  header -->
+                    
+                    <li class="dropdown-header">Nav header1</li>
+                    <li role="separator" class="divider"></li>
+                    <!-- end column header -->
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+            </ul>
+
+        </div>
+    <!-- end test div -->
+
     <!-- start landing slider -->
-    <div id="landing-slider">
-      
+    <div id="landing-slider" class="owl-carousel owl-theme">
+            
+          <div class="owl-carousel-item">
+
+            <img src="images/fullimage1.jpg" alt="The Last of us">
+            
+            <h1 class="slider-heading animated bounceInUp">Experience</h1>
+            <p class="slider-text animated bounceInUp">We craft experince that help brands</p>
+
+          </div>
+          <div class="owl-carousel-item">
+
+            <img src="images/fullimage2.jpg" alt="GTA V">
+
+            <h1 class="slider-heading animated bounceInUp">Leadership</h1>
+            <p class="slider-text animated bounceInUp">We work hard - we play hard</p>
+
+          </div>
+          <div class="owl-carousel-item">
+
+            <img src="images/fullimage3.jpg" alt="Mirror Edge">
+
+            <h1 class="slider-heading animated bounceInUp">Experties</h1>
+            <p class="slider-text animated bounceInUp">We craft unique digital experience</p>
+
+          </div>
+          <div class="owl-carousel-item">
+
+            <img src="images/profile.jpg" alt="Mirror Edge">
+
+            <h1 class="slider-heading animated bounceInUp">Experience</h1>
+            <p class="slider-text animated bounceInUp">We craft experince that help brands</p>
+
+          </div>
     </div>
     <!-- end landing slider -->
 
     <!-- start Why Us -->
-    <div id="why-us">
-      
+    <div id="why-us" class="animated bounceInUp">
+      <p class="animated bounceInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ratione perferendis optio perspiciatis a sint atque, aliquam provident ullam, voluptates, dolorum vel quam hic iste minima repellendus necessitatibus nobis quidem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur vitae perferendis vero, earum minima, voluptates, provident labore placeat ratione, dolorem quibusdam molestiae? Ad aperiam quibusdam sint repellat animi rerum eius?abcd efgh ijkl  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum repellat, ducimus qui officiis saepe obcaecati molestiae sed explicabo numquam et repellendus iusto sequi odio sint labore est corrupti facilis! Iure?</p>
     </div>
     <!-- end why us -->
 
@@ -179,6 +286,9 @@
 
     <!-- smooth-scroll.js -->
     <script src="js/smooth-scroll.js"></script>
+
+    <!-- owl.carousel.js -->
+    <script src="js/owl.carousel.js"></script>
 
     <!-- main.js -->
     <script src="js/main.js"></script>
