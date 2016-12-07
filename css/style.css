@@ -104,3 +104,89 @@ body {
 	text-transform: uppercase;
 }
 
+
+/* about section
+==========================*/
+.about-container{
+	
+}
+
+.about-main-content{
+	padding: 0;
+}
+
+.about-main-content h1{
+	text-align: center;
+	/* letter-spacing: 5px; */
+	text-transform: uppercase;
+	line-height: 45px;
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+
+.about-main-content p{
+	text-align: center;
+	word-spacing: 5px;
+	line-height: 20px;
+	font-size: 15px;
+	margin: 10px 89px;
+	padding-bottom: 50px;
+	/* margin-left: 62px; */
+}
+
+.about-company-stablish-year{
+	display: block;
+	padding: 120px 0 20px 0;
+	text-align: center;
+}
+
+.about-company-working-sector-div{
+
+	height: 100px;
+	background-color: #FDD947;
+}
+
+.about-company-working-sector{
+	display: block;
+	margin-top: 42px;
+	margin-left: 30%;
+
+}
+
+/* why us section
+=========================*/
+
+.why-us-section-title{
+	text-align: center;
+	margin: 100px 0;
+
+}
+
+.why-us-item-description{
+
+
+}
+
+.why-us-item-description h5{
+
+	
+}
+
+.why-us-item-description p{
+
+	
+}
+
+.medium-icon{
+
+	min-height: 85px;
+	font-size: 40px;
+
+}
+
+.separator-line{
+	width: 45px;
+	height: 2px;
+	background-color: #E6AF2A;
+}
+
