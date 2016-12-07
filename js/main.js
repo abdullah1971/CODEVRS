@@ -82,6 +82,10 @@ $(document).ready(function() {
   });
   
 
+  // counter section
+  //==========================
+
+  $(".timer").countTo();
   
  
 });
