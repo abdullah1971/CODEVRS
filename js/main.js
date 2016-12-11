@@ -92,7 +92,37 @@ $(document).ready(function() {
   //Portfolio - START CODE
   //==========================
 
-    
+  var $container = $('.masonry-items');
+  $container.isotope({
+      filter: '*',
+      animationOptions: {
+          duration: 750,
+          easing: 'linear',
+          queue: false
+      }
+  });
+  
+  $('.portfolio-filter li a').click(function(){
+     
+      $('.portfolio-filter li .active').removeClass('active');
+      $(this).addClass('active');
+
+      var selector = $(this).attr('data-filter');
+      $container.isotope({
+          filter: selector,
+          animationOptions: {
+              duration: 750,
+              easing: 'linear',
+              queue: false
+          }
+       });
+       return false;
+  }); 
+
+
+
+
+
   
  
 });
