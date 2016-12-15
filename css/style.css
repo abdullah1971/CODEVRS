@@ -1501,17 +1501,23 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 
  #key-person-01{
  	animation-duration: 1s;
-  	animation-delay: 1s;
+  	/*animation-delay: 1s;*/
  }
 
   #key-person-02{
  	animation-duration: 1s;
-  	animation-delay: 2s;
+  	animation-delay: 1s;
  }
 
   #key-person-03{
  	animation-duration: 1s;
-  	animation-delay: 3s;
+  	animation-delay: 2s;
+ }
+
+ #testimonial-01,
+ #testimonial-02,
+ #testimonial-03{
+ 	animation-delay: .5s;
  }
 
 

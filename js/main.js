@@ -85,7 +85,7 @@ $(document).ready(function() {
   // counter section
   //==========================
 
-  $(".timer").countTo();
+
 
 
     
@@ -245,17 +245,50 @@ $(window).resize(function () {
 
 /* for  appear.js work
 =========================*/
-    //$("#features").appear();
-
-    /*$('#features').on('appear','#feature-section-01' function(e, $affected) {
-        alert("abcd");
+    
+    // feature
+    $("#features").appear();
+    $('#features').on('appear',function() {
+        //alert("abcd");
         $("#feature-section-01").addClass("animated bounceInLeft");
         $("#feature-section-02").addClass("animated bounceInLeft");
         $("#feature-section-03").addClass("animated bounceInLeft");
-    });*/
+    });
     
+    // counter
+    $("#counter").appear();
+    $("#counter").on('appear',function(){
+
+        $(".timer").countTo(); // here is a bug , number fructuates while scrolling
+
+        $("#counter-01").addClass("animated bounceInUp  counter-animation-delay");
+        $("#counter-02").addClass("animated bounceInUp  counter-animation-delay");
+        $("#counter-03").addClass("animated bounceInUp  counter-animation-delay");
+        $("#counter-04").addClass("animated bounceInUp  counter-animation-delay");
+
+    });
 
 
+    // key person
+    $("#key-person").appear();
+    $("#key-person").on("appear",function(){
+
+        $("#key-person-01").addClass("animated bounceInUp");
+        $("#key-person-02").addClass("animated bounceInUp");
+        $("#key-person-03").addClass("animated bounceInUp");
+
+    });
+
+
+    // testimonial
+    $("#testimonial").appear();
+    $("#testimonial").on("appear",function(){
+
+        $("#testimonial-01").addClass("animated zoomInUp");
+        $("#testimonial-02").addClass("animated zoomInUp");
+        $("#testimonial-03").addClass("animated zoomInUp");
+
+    });
   
  
 });
