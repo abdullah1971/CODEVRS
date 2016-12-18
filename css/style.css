@@ -9,7 +9,7 @@ img { -webkit-backface-visibility: hidden; max-width:100%; height:auto; }
 video { background-size: cover; display: table-cell; vertical-align: middle; width: 100%; }
 ul{ margin: 0px; padding:0px; }
 input, textarea, select{ border: 1px solid #dfdfdf; letter-spacing: 1px; font-size: 11px;  padding: 8px 15px; width: 100%; margin: 0 0 20px 0; text-transform: uppercase; max-width: 100%; resize: none;}
-input[type="submit"] { width: auto}
+/*input[type="submit"] { width: auto}*/
 input[type="button"], input[type="text"], input[type="email"], input[type="search"], input[type="password"], textarea, input[type="submit"] { -webkit-appearance: none;  border-radius: 0; }
 input:focus, textarea:focus{ border: 1px solid #989898; }
 input[type="submit"]:focus { border:none !important}
@@ -1520,4 +1520,211 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
  	animation-delay: .5s;
  }
 
+
+
+
+ /* 
+ SHOHAG
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ SHOHAG 
+ */
+
+ #contact h2 {
+   color: #ffffff;
+ }
+
+ /* All Section styles */
+ #about,
+ #feature,
+ #video,
+ #menu,
+ #team,
+ #gallery,
+ #contact {
+   color: #656565;
+   padding-top: 100px;
+   padding-bottom: 100px;
+ }
+ #feature,
+ #video,
+ #team,
+ #gallery,
+ #contact {
+   text-align: center;
+ }
+
+
+ /* Video section  */
+ #video .overlayS {
+   background-color: rgba(03,03,03,0.6);
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+ }
+
+
+
+ /* Contact section  */
+ #contact .section-title {
+   color: #f0f0f0;
+ }
+
+ #contact {
+   background: url('../images/contact_bg_image.png') 50% 0 repeat-y fixed;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center center;
+   position: relative;
+ }
+
+ #contact .overlayS {
+   background: rgba(0,0,0,0.7);
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+ }
+
+
+
+ #contact .form-control {
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #666;
+   border-radius: 0px;
+   box-shadow: none;
+   color: #ffffff;
+   font-size: 18px;
+   margin-bottom: 16px;
+   transition: all 0.4s ease-in-out;
+   text-transform: none;
+ }
+
+ #contact .form-control:hover {
+   border-color: #ddd;
+ }
+
+ #contact input {height: 45px;}
+
+ #contact input[type='submit'] {
+   background: #ffffff;
+   border-radius: 4px;
+   color: #c21500;
+   font-size: 20px;
+   font-weight: 600;
+   letter-spacing: 2px;
+   height: 50px;
+   margin-top: 20px;
+   transition: all 0.4s ease-in-out;
+ }
+ #contact input[type='submit']:hover {
+   background-color: #c21500;
+   border-color: transparent;
+   color: #ffffff;
+ }
+
+  #about,
+   #feature,
+   #video,
+   #menu,
+   #team,
+   #gallery,
+   #contact {
+     padding-top: 80px;
+     padding-bottom: 80px;
+   }
+
+ /*About Section */
+
+
+ #about .col-md-4 ul {
+   padding-top: 4px;
+   padding-left: 28px;
+ }
+
+ #about .col-md-4 ul li {
+   color: #777;
+   font-size: 18px;
+   font-weight: 400;
+   padding-top: 2px;
+   padding-bottom: 2px;
+ }
+
+
+
+ #feature .col-md-4:last-child,
+   #about .col-md-4 {
+     margin-top: 42px;
+   }
+
+ #feature .col-md-4,
+   #about .col-md-5,
+   footer .col-md-4 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+   }
+
+
+ /* Footer section  */
+ footer {
+   background-color: #757575;
+   color: #141414;
+   padding-top: 100px;
+   padding-bottom: 100px;
+ }
+
+ footer h3 {
+
+   color: #ffffff;
+   text-transform: uppercase;
+   padding-bottom: 14px;
+ }
+
+ footer strong {
+   color: #14141f;
+   font-size: 20px;
+   display: block;
+   padding-top: 6px;
+   padding-bottom: 2px;
+ }
+
+ /* copyright section  */
+ #copyright p {
+   padding: 20px;
+   
+ }
+
+ #copyright a{
+   text-decoration: none;
+ }
+ #copyright a:visited{
+    color: white;
+ }
+ .gototop {
+   background-color: #242424;
+   color: #ffffff;
+   font-size: 40px;
+   padding: 20px 32px;
+   text-align: right;
+   transition: all 0.4s ease-in-out;
+ }
+ .gototop:hover {
+   background-color: #c21500;
+   color: #fff;
+ }
 
