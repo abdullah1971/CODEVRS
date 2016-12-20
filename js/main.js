@@ -290,5 +290,28 @@ $(window).resize(function () {
 
     });
   
+
+
  
 });
+
+
+
+
+
+/*fund us in google map*/
+
+ 
+      function initMap() {
+        var uluru = {lat: 22.815970, lng: 89.553930};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+     
+    /*End find us*/

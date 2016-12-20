@@ -180,7 +180,7 @@ body {
 
 .about-company-stablish-year{
 	display: block;
-	padding: 120px 0 20px 0;
+	padding: 10% 0 20px 0;
 	text-align: center;
 }
 
@@ -261,7 +261,7 @@ body {
 	 padding: 0 2% !important;
  }
 #features .section-title { 
-	padding: 100px 0 90px 0; 
+	padding: 5% 0 5% 0; 
 }
 .features-section h5 {
 	margin-top: 0;
@@ -291,12 +291,14 @@ body {
 .features-section{
 	padding: 0 2% !important;
 	clear: both;
-    margin: 0 0 100px 0;
+    margin: 0 0 20% 0;
 }
 
 
 /* counter section
 ======================  */
+
+
 .counter-section i {
  display:block; margin:0 0 -15px
 }
@@ -336,7 +338,7 @@ body {
 }
 
 .counter-div-position{
-	padding-top: 130px;
+	padding-top: 50px;
 }
 
 .white-text{ 
@@ -344,7 +346,7 @@ body {
 } 
 
 .bottom-margin{
-    margin-bottom: 100px;	
+    margin-bottom: 50px;	
 }
 
 /* portfolio section
@@ -550,8 +552,8 @@ figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1
 .masonry-portfolio-header-title { color: #000; display: block; font-family: "Oswald",sans-serif; font-size: 30px; font-weight: 100; line-height: 40px; margin: 130px auto 0; text-align: center; text-transform: uppercase; }
 
 
-#portfolio{
-	padding: 120px 0;
+#project-list{
+	padding: 60px 0;
 }
 
 .section-title{
@@ -619,7 +621,7 @@ figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1
 
 /* work process */
 #work-process{
-	padding: 140px 0 50px 0;
+	padding: 60px 0 0px 0;
 }
 
 .work-process-sub {min-height:100px}
@@ -934,7 +936,7 @@ i { color: #9a9a9a; margin: 0 3px}
 .highlight-link i {position:relative; top:2px; margin:0 0 0 5px}
 .corporate-about-img {min-height:600px}
 .corporate-about-text { min-height:300px; padding:70px 30px}
-.corporate-standards {padding-top: 120px;}
+.corporate-standards {padding-top: 4%;}
 .corporate-standards .nav-tabs li a { padding:0 70px !important; display: inline-block !important; min-height: 65px}
 .corporate-standards-img {min-height:600px}
 .corporate-standards-text {min-height:600px; padding:5% 11%}
@@ -1216,9 +1218,9 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 
 
 /* team */
-#key-person{ padding-top: 120px; }
-.key-person{ overflow:hidden; max-height:600px;}
-.key-person .key-person-img img { max-height: 430px; opacity:1;  transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; }
+#key-person{ padding-top: 4%; }
+.key-person{ overflow:hidden; max-height:530px;}
+.key-person .key-person-img img { max-height: 350px; opacity:1;  transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; }
 .key-person:hover .key-person-img img { opacity:0.5; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1.1);  transform: scale(1.1,1.1);}
 .key-person:hover .key-person-details { bottom:110px; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; border-top:1px solid #e5e5e5}
 .key-person-details{ position:relative; background-color:#fff; padding: 32px 25px 120px; bottom:0; transition: all .3s ease; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; border-top:1px solid #e5e5e5}
@@ -1286,7 +1288,7 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 
 
 #testimonial{
-	padding-top: 120px;
+	padding: 4% 0;
 }
 
 /* ===================================
@@ -1294,7 +1296,7 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
 ====================================== */
 
 #blog{
-	padding: 120px 0;
+	padding: 4% 0;
 	/*border-bottom: 1px solid #000;
 	border-top: 1px solid #000;*/
 	background-color: #E8E8E0 ;
@@ -1726,5 +1728,20 @@ nav .container{ display: table-cell; vertical-align: middle; height: 80px; posit
  .gototop:hover {
    background-color: #c21500;
    color: #fff;
+ }
+
+
+
+ /*  Find us in google map */
+
+ #map{
+      height: 80%;
+      width: 100%;
+     
+  }
+
+ #findInGooglemap{
+ 	height: 400px;
+      padding: 10px;
  }
 
